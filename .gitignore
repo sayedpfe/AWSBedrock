@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# AWS related
+aws_credentials.txt
+**/aws_credentials.txt
+.aws/
+credentials
+.aws-config
+
+# Azure related
+.azure/
+azure.yaml
+**/azure.yaml
+
+# Deployment artifacts
+deploy.zip
+**/deploy.zip
+
+# BFG Repo Cleaner
+bfg.jar
+*.jar
+
+# Sensitive data
+sensitive-data.txt
+*credentials*
+*secret*
+.env
+*.pem
+*.key
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+logs/
+*.log
